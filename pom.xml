@@ -4,7 +4,7 @@
 
     <groupId>com.github.sandor-nemeth.archetypes</groupId>
     <artifactId>opensource-java8-archetype</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
     <packaging>maven-archetype</packaging>
 
     <name>opensource-java8-archetype</name>
@@ -37,7 +37,7 @@
         <connection>scm:git:git://github.com/${github.user}/${github.project}.git</connection>
         <developerConnection>scm:git:git@github.com:${github.user}/${github.project}.git</developerConnection>
         <url>https://github.com/${github.user}/${github.project}</url>
-      <tag>HEAD</tag>
+      <tag>opensource-java8-archetype-0.1.2</tag>
   </scm>
 
     <issueManagement>
