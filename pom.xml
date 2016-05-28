@@ -68,4 +68,11 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-maven</id>
+            <url>https://api.bintray.com/maven/${github.user}/maven/${github.project};publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
