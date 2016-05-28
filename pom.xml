@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.sandor-nemeth.archetypes</groupId>
-  <artifactId>opensource-java8-archetype-simple</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <artifactId>opensource-java8-archetype</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>opensource-java8-archetype-simple</name>
+  <name>opensource-java8-archetype</name>
 
   <build>
     <extensions>
