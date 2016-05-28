@@ -1,0 +1,14 @@
+language: java
+
+jdk:
+- oraclejdk8
+
+script:
+- mvn clean verify
+
+after_success:
+- mvn clean verify coveralls:report
+- test "${TRAVIS_PULL_REQUEST}" == "false" &&  test "${TRAVIS_TAG}" != "" && mvn deploy --settings settings.xml
+
+env:
+  global:

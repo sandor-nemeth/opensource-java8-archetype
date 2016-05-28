@@ -1,0 +1,30 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<project>
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+    <custom>
+        <fluidoSkin>
+            <topBarEnabled>false</topBarEnabled>
+            <sideBarEnabled>true</sideBarEnabled>
+            <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+            <skipGenerationDate>true</skipGenerationDate>
+            <copyrightClass>pull-right</copyrightClass>
+            <gitHub>
+                <projectId>sandor-nemeth/${artifactId}</projectId>
+                <ribbonOrientation>right</ribbonOrientation>
+                <ribbonColor>red</ribbonColor>
+            </gitHub>
+        </fluidoSkin>
+    </custom>
+    <body>
+        <menu name="Overview">
+            <item href="index.html" name="Introduction" />
+        </menu>
+        <menu ref="reports" inherit="bottom" />
+    </body>
+</project>

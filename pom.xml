@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.sandor-nemeth.archetypes</groupId>
+  <artifactId>opensource-java8-archetype-simple</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>opensource-java8-archetype-simple</name>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.4</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.4</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <url>https://github.com/sandor-nemeth/metrics-spring-autoconfiguration</url>
+
+  <developers>
+    <developer>
+      <id>sandor-nemeth</id>
+      <name>Sandor Nemeth</name>
+      <email>sandor.nemeth.1986@gmail.com</email>
+      <url>https://github.com/sandor-nemeth</url>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git://github.com/sandor-nemeth/metrics-spring-autoconfiguration.git</connection>
+    <developerConnection>scm:git:git@github.com:sandor-nemeth/metrics-spring-autoconfiguration.git</developerConnection>
+    <url>https://github.com/sandor-nemeth/metrics-spring-autoconfiguration</url>
+  </scm>
+</project>
